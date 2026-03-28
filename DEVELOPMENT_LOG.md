@@ -14,82 +14,82 @@ Document your development process as you work on the assignment. Add entries sho
 ## Example Entry Format:
 
 ### Entry 1 - [March 26, 2026, 3:00 PM]
-**What I did**: Started the assignment and explored the starter code.
+**What I did**: investigated the beginning code and began the assignment.
 
 **Details**: 
-- Read the assignment instructions carefully
-- Opened the project in VS Code
-- Ran the program to understand the output
-- Reviewed how processes and threads work in the code
+-Carefully read the assignment instructions.
+-I launched the project in Visual Studio Code.
+-To comprehend the results, run the application.
+-Examined the code's use of threads and processes.
 
-**Challenges**: Understanding the structure of the code and how scheduling is implemented
+**Challenges**: Knowing the code's structure and how scheduling works
 
-**Solution**: I carefully read through the code and followed the execution step by step
+**Solution**:I thoroughly examined the code and tracked its step-by-step execution.
 
 **Time spent**: 
-1 hour
+2 hour
 ---
 ---
 
 ### Entry 2 - [March 26, 2026, 4:00 PM]
 **What I did**: 
-Implemented Feature 1 (process priority)
+Feature 1 (process priority) was implemented.
 **Details**: 
-- Added priority variable to Process class
-- Modified constructor to include priority
-- Added getter method
-- Updated output to display priority
+ -The Process class now has a priority variable.
+ -Constructor modified to incorporate priority
+ -The getter function was added.
+ -The output was updated to show priority.
 **Challenges**: 
-Making sure the priority appears correctly in the output
+   ensuring that the output accurately displays the priority
 **Solution**: 
-Tested the program multiple times and fixed the print statement
+Several tests were conducted on the program, and the print statement was corrected.
 **Time spent**: 
-2 hours
+3 hours
 ---
 
 ### Entry 3 - [March 27, 2026, 5:00 PM]
 **What I did**: 
-Implemented Feature 2 (context switch counter)
+Feature 2 (context switch counter) was implemented.
 **Details**: 
-- Added a counter variable in SchedulerSimulation
-- Incremented counter during context switching
-- Printed total context switches at the end
+- SchedulerSimulation now has a counter variable.
+- During context switching, the counter was increased.
+- The final total context switches were printed.
 **Challenges**: 
-Finding the correct place to increment the counter
+Locating the appropriate location for the counter's increment
 **Solution**: 
-Placed the counter update before each context switch and tested output
+Before every context switch, the counter update was placed, and the output was tested.
 **Time spent**: 
-3 hour
+2 hour
 
 ---
 
 ### Entry 4 - [March 28, 2026, 6:00 PM]
 **What I did**: 
-Implemented Feature 3 (waiting time tracking)
+Feature 3 (waiting time tracking) has been implemented.
 **Details**: 
-- Added variables for creation time and waiting time
-- Updated waiting time inside run method
-- Created summary output for all processes
+- Waiting time and creation time variables were added.
+- The waiting time inside the run method has been updated.
+ - Summary output was produced for every process.
 **Challenges**: 
-Understanding how to calculate waiting time correctly
+Knowing how to accurately calculate waiting time
 **Solution**: 
-Used system time and tracked execution points carefully
+used system time and closely monitored execution points
 **Time spent**: 
 4 hours
 ---
 
 ### Entry 5 - [march 28, 2026, 7:30 PM]
 **What I did**: 
-Tested and finalized the assignment
+tested and completed the task.
 **Details**: 
-- Fixed small bugs
-- Verified output correctness
-- Organized commits for each feature
-- Uploaded project to GitHub
+- Small bugs have been fixed.
+- Verified the accuracy of the output
+- Coordinated commits for every feature
+- The project was uploaded to GitHub.
 **Challenges**: 
-Issues with Git and syncing changes
+Git problems and syncing updates
 **Solution**: 
-Configured Git settings and retried syncing until successful
+Git settings were adjusted, and syncing was attempted again until it was successful.
 **Time spent**: 
 1 hour
 ---
@@ -112,9 +112,9 @@ Configured Git settings and retried syncing until successful
 **Total time spent on assignment**: 3 days
 
 **Most challenging part**: 
-
+Implementing and debugging the waiting time computation was the most difficult element since it requires precise time monitoring and a grasp of the execution flow.
 **Most interesting learning**:  
-The most challenging part was implementing and debugging the waiting time calculation, because it required understanding the execution flow and tracking time accurately.
+Implementing and debugging the waiting time computation was the most difficult element since it requires precise time monitoring and a grasp of the execution flow.
 
 
 
