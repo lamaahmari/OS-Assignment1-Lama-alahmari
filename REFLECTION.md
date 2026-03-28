@@ -7,11 +7,11 @@ Answer the following questions about your learning experience. Each answer shoul
 
 ## Question 1: What did you learn about multithreading?
 
-**Your Answer: During this assignment, I learned many important concepts about multithreading. I understood how threads are created and how they run concurrently within a process. I also learned about different thread states such as New, Runnable, Running, Waiting, and Terminated.
+**Your Answer: This task taught me a lot of crucial multithreading topics. I was aware of the creation and concurrent operation of threads within a process. Additionally, I learnt about the many thread states, including New, Runnable, Running, Waiting, and Terminated.
 
-One important thing I noticed is how threads share memory, which makes them faster but also requires careful handling. I learned how the CPU switches between threads using context switching, which gives the illusion that multiple processes are running at the same time.
+The fact that threads share memory, which speeds them up but necessitates careful control, is one significant observation I made. I discovered that the CPU uses context switching to swap between threads, creating the appearance of several processes operating simultaneously.
 
-What surprised me the most is how scheduling affects performance and fairness. Seeing the threads execute in a Round-Robin manner helped me understand how operating systems manage multiple tasks efficiently. Overall, this assignment helped me connect theory with practical implementation.**
+The way scheduling impacts fairness and performance shocked me the most. Observing the Round-Robin execution of the threads made it easier for me to comprehend how operating systems effectively handle multiple jobs. In general, this task assisted me in making the connection between theory and real-world application.**
 
 [Write your answer here. Discuss specific concepts like thread creation, thread states, how threads execute concurrently, what surprised you, etc.]
 
@@ -19,11 +19,11 @@ What surprised me the most is how scheduling affects performance and fairness. S
 
 ## Question 2: What was the most challenging part of this assignment?
 
-**Your Answer:The most challenging part of this assignment was understanding how to correctly implement and track the waiting time and context switches. At first, it was confusing to know where exactly to update the waiting time in the code.
+**Your Answer:Understanding how to properly construct and monitor the waiting time and context shifts was the most difficult aspect of this assignment. Knowing just where to update the waiting time in the code was first difficult.
 
-Another challenge was understanding how the scheduling flow works, especially how processes move in and out of the ready queue. Debugging the output and making sure everything works correctly was also difficult.
+Understanding the scheduling flow, particularly how processes enter and exit the ready queue, presented another difficulty. It was also challenging to debug the output and ensure that everything functions properly.
 
-In addition, working with Git and making separate commits for each feature required careful attention. Overall, the difficulty came from combining multiple concepts like threading, scheduling, and synchronization into one working system.**
+Careful attention was also needed when using Git and creating distinct commits for every feature. In general, the challenge was integrating several ideas, such as scheduling, synchronisation, and threading, into a functional system.**
 
 [Describe the specific challenge. Was it understanding the code? Implementing a feature? Using Git? Explain what made it difficult and how it relates to the course concepts.]
 
@@ -31,13 +31,13 @@ In addition, working with Git and making separate commits for each feature requi
 
 ## Question 3: How did you overcome the challenges you faced?
 
-**Your Answer:To overcome these challenges, I followed a step-by-step approach. First, I carefully read the assignment instructions and tried to understand the starter code provided.
+**Your Answer:I used a methodical technique to get beyond these obstacles. I started by carefully reading the assignment guidelines and attempting to comprehend the provided beginning code.
 
-When I faced problems, I used debugging by printing output and checking how the processes move in the queue. This helped me understand the execution flow better.
+When I ran into issues, I used debugging to see how the processes moved through the queue and report the output. This improved my comprehension of the execution sequence.
 
-I also reviewed lecture materials and searched for explanations about multithreading and scheduling concepts. Breaking the problem into smaller parts made it easier to solve each feature separately.
+I also looked for explanations of concepts related to scheduling and multithreading in the class materials. It was simpler to tackle each feature independently when the problem was divided into smaller components.
 
-Finally, I tested my code multiple times to ensure everything works correctly. This approach helped me gain confidence and improve my problem-solving skills.**
+In order to make sure everything functions properly, I tested my code several times. This strategy gave me more self-assurance and enhanced my ability to solve problems.**
 
 [Describe your problem-solving approach. Did you read documentation? Ask for help? Debug systematically? What resources did you use? What strategies worked?]
 
@@ -45,13 +45,13 @@ Finally, I tested my code multiple times to ensure everything works correctly. T
 
 ## Question 4: How can you apply multithreading concepts in real-world applications?
 
-**Your Answer:Multithreading is widely used in real-world applications. One example is web browsers, where multiple threads are used to load different parts of a webpage at the same time. This improves performance and user experience.
+**Your Answer:In practical applications, multithreading is frequently utilised. Web browsers, for instance, use several threads to load different sections of a webpage simultaneously. Both performance and user experience are enhanced by this.
 
-Another example is mobile applications, where threads are used to perform background tasks such as downloading data while keeping the user interface responsive.
+Another illustration is mobile applications, which employ threads to carry out background operations like data downloads while maintaining a responsive user interface.
 
-In this assignment, I saw how threads can simulate scheduling and process execution. This helped me understand how operating systems manage tasks efficiently.
+I saw how threads might mimic scheduling and process execution in this assignment. This made it easier for me to comprehend how operating systems effectively handle duties.
 
-Multithreading is important because it allows better resource utilization and improves system responsiveness. It is a key concept in modern software development.**
+Because it enhances system responsiveness and enables greater resource utilisation, multithreading is crucial. It is a fundamental idea in contemporary software development.**
 
 [Give specific examples from real applications you use (web browsers, games, mobile apps, etc.). Explain why threads are useful in those scenarios. Connect to what you learned in this assignment.]
 
@@ -60,27 +60,24 @@ Multithreading is important because it allows better resource utilization and im
 ## Additional Reflections (Optional)
 
 ### What would you like to learn more about?
-I would like to learn more about thread synchronization and how to avoid issues like race conditions and deadlocks. I am also interested in learning about advanced scheduling algorithms and performance optimization.
-
+I want to know more about thread synchronisation and how to prevent problems like deadlocks and race conditions. Additionally, I'd like to learn more about performance optimisation and sophisticated scheduling techniques.
 [Any topics related to threading, concurrency, or operating systems that you're curious about?]
 
 ---
 
 ### How confident do you feel about multithreading concepts now?
-I feel more confident than before because I understand the basics of threads, scheduling, and context switching. However, I still need more practice with advanced topics like synchronization and concurrency control.
+I feel more assured now that I know the fundamentals of scheduling, context switching, and threads. I still need to practise complex concepts like concurrency control and synchronisation, though.
 [Rate yourself and explain: Beginner / Intermediate / Confident]
 
 [Explain your rating - what do you understand well? What needs more practice?]
+This task was a great opportunity to gain a practical understanding of operating systems fundamentals. In addition to being difficult, it was fascinating and fulfilling.
 
-This assignment was very helpful in understanding operating systems concepts in a practical way. It was challenging but also interesting and rewarding.
+I was able to relate theory to actual coding thanks to the implementation. One recommendation is to include more examples for intricate sections, such as the computation of waiting times.
 
-The implementation helped me connect theory with real code. One suggestion is to provide more examples for complex parts like waiting time calculation.
-
-Overall, the assignment was well-designed and improved my understanding of multithreading.
+The project was well-designed overall, and it helped me better grasp multithreading.
 
 
 ---
-
 ### Feedback on the assignment
 
 [Any comments about the assignment? Was it helpful? Too easy/hard? Suggestions for improvement?]
